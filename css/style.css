@@ -291,8 +291,11 @@ ol {
 }
 
 .header__top__right {
-	text-align: right;
-	padding: 10px 0 13px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px 0 13px;
 }
 
 .header__top__right__social {
