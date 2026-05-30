@@ -15,8 +15,6 @@ document.getElementById("registerForm").addEventListener("submit", async functio
 
     const data = await res.json();
 
-     alert(JSON.stringify(data)); 
-
     if (data.status === "success") {
         document.getElementById("message").innerText = "Registrasi berhasil, silakan login";
         window.location.href = "index.html";
