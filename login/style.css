@@ -89,14 +89,14 @@ body {
 .input-wrapper input:focus,
 .input-wrapper input:valid,
 .input-wrapper input.has-value {
-    border-color: #6366f1;
+    border-color: #BE8BB6;
 }
 
 .input-wrapper input:focus + label,
 .input-wrapper input:valid + label,
 .input-wrapper input.has-value + label {
     transform: translateY(-8px) scale(0.875);
-    color: #6366f1;
+    color: #BE8BB6;
     font-weight: 500;
 }
 
@@ -208,8 +208,8 @@ body {
 }
 
 .remember-wrapper input[type="checkbox"]:checked ~ .checkbox-label .checkmark {
-    background: #6366f1;
-    border-color: #6366f1;
+    background: #BE8BB6;
+    border-color: #BE8BB6;
 }
 
 .remember-wrapper input[type="checkbox"]:checked ~ .checkbox-label .checkmark::after {
@@ -220,7 +220,7 @@ body {
 }
 
 .forgot-password {
-    color: #6366f1;
+    color: #BE8BB6;
     text-decoration: none;
     font-size: 0.875rem;
     font-weight: 500;
@@ -234,7 +234,7 @@ body {
 /* Button */
 .login-btn {
     width: 100%;
-    background: #6366f1;
+    background: #BE8BB6;
     border: none;
     border-radius: 8px;
     padding: 12px 24px;
@@ -299,7 +299,7 @@ body {
 }
 
 .signup-link a {
-    color: #6366f1;
+    color: #BE8BB6;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s ease;
